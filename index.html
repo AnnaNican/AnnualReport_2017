@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Anna's 2017</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="ct" id="t1">
+    <div class="ct" id="t2">
+     <div class="ct" id="t3">
+       <div class="ct" id="t4">
+        <div class="ct" id="t5">
+          <section>  
+           <ul>
+             <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
+             <a href="#t2"><li class="icon fa fa-flask" id="dos"></li></a>
+             <a href="#t3"><li class="icon fa fa-book" id="tres"></li></a>
+             <a href="#t4"><li class="icon fa fa-plane" id="cuatro"></li></a>
+             <a href="#t5"><li class="icon fa fa-cubes" id="cinco"></li></a>
+           </ul>
+           <div class="page" id="p1">
+             <li class="icon fa fa-home"><span class="title">Anna's 2017</span><span class="hint">How I spent 2017<br/> Year in review of Self Data.</span></li>   
+           </div>
+
+           <!-- Work -->
+           <div class="page" id="p2">
+            <li class="icon fa fa-flask"><span class="title">WORK</span>
+              <span class="hint">report on productivity</li>
+            </li>
+
+            <div class=row>
+              <div class="column-left">
+                <div class="stats stats-header">Hours on Laptop: <span class="stats timer stats-number" data-to="2464" data-speed="1500"></span> </div>
+                <div class="subtitle">This year I have spend about <b>20% less online</b>. Unfortunately it means about 30% less in software development, but on the flip side I have cut distracting time by 50% when I am online.</div>
+                <div class="stats stats-header">Number of Commits: <span class="stats timer stats-number" data-to="1716" data-speed="1500"></span> </div>
+                <div class="stats stats-header">Hours in Sublime Text: <span class="stats timer stats-number" data-to="287" data-speed="1500"></span> </div>
+                <div class="subtitle">13% decrease as compared to last year :( </div>
+              </div>
+              <div class="column-right">
+                <canvas id="workChart" width="200px" height="100px"></canvas>
+                <div class="subtitle">The data is collected and tracked with <a href="https://www.rescuetime.com">ResqueTime.</a></div>
+                </div>
+              </div> 
+            </div> 
+
+
+            <!-- Read -->
+            <div class="page" id="p3">
+              <li class="icon fa fa-book"><span class="title">READ</span>
+                <span class="hint">report on books read</span>
+              </li>
+              <div class=row>
+                <div class="column-left">
+                  <div class="stats stats-header">Books Read: <span class="stats timer stats-number" data-to="54" data-speed="1500"></span> </div>
+                  <div class="subtitle">My Annual Reading Challenge this year's challenge was to read <b>45 books</b> (12% increase from last year). Around October I have complemented my goal early, but was pleasently surprised to surpass my own expectations for the year.</div>
+                  <div class="stats stats-header">Pages Flipped: <span class="stats timer stats-number" data-to="18971" data-speed="1500"></span> </div>
+                  <div class="stats stats-header">Words written: <span class="stats timer stats-number" data-to="51346" data-speed="1500"></span> </div>
+                  <div class="subtitle">3 articles published on <a href = "https://maptia.com/annan"> Maptia</a>. Most of the publications are still private or just README. Goal carry-over for next year.</div>
+                </div>
+                <div class="column-right">
+                  <canvas id="readChart" width="200px" height="100px"></canvas>
+                  <div class="subtitle">The data is collected and tracked with <a href="https://www.goodreads.com/user/show/5306116-anna">Goodreads</a>.</div>
+                </div>
+
+              </div>
+              <!--  -->
+
+              <!-- Went -->
+            </div>
+            <div class="page" id="p4">
+             <li class="icon fa fa-dplane">
+              <span class="title">Went</span>
+              <span class="hint">places explored and visited</span>></li>
+              <div class=row>
+                <div class="column-left">
+                  <div class="stats stats-header">Cities Visited: <span class="stats timer stats-number" data-to="29" data-speed="1500"></span> </div>
+                  <div class="subtitle"> Across 7 countries. Almost 2.5 times more than last year (12 cities across 5 countries). Number of times in the airports : 37.</div>
+                  <div class="stats stats-header">Museums and Galleries: <span class="stats timer stats-number" data-to="145" data-speed="1500"> </div>
+                    <div class="subtitle"> This category explains why my work hours dropped 20%. Almost 50% increase from last year in terms of visits to cultural institutions. (surprisingly the amount of bookstores/library visits stayed the same</div>
+                    <div class="stats stats-header">Days away from home: <span class="stats timer stats-number" data-to="106" data-speed="1500"></span></div>
+                    <div class="subtitle">Number of times in the airports 61.</div>
+                    <div class="subtitle"> </div>
+                  </div>
+                  <div class="column-right">
+                    <iframe width="100%" height="320" frameborder="0" src="https://annanican.carto.com/builder/5d22fdd5-53d2-4912-9440-9f615507f6b1/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></iframe>
+                    <div class="subtitle">The data is collected and tracked with <a href="https://foursquare.com/">Foursquare</a>. (yes, i am one of those people who still "checks-in")</div>
+                  </div>
+                </div>
+              </div> 
+              <!--  -->
+
+              <!-- Climbed -->
+              <div class="page" id="p5">
+                <li class="icon fa fa-cubes">
+                  <span class="title">Climbed</span>
+                  <span class="hint">peaks explored and hours spent preparing for them</span>
+                </li>
+                <div class=row>
+                  <div class="column-left">
+                    <div class="stats stats-header">Gym Visits: <span class="stats timer stats-number" data-to="217" data-speed="1500"></span> </div>
+                    <div class="subtitle"> About 1% decrease this year.</div>
+                    <div class="stats stats-header">Total Mountains Climbed: <span class="stats timer stats-number" data-to="29" data-speed="1500"></span> </div>
+                    <div class="subtitle"> This year climbed in Peru and Mexico. Have also completed Catskills 3500. Even though mountains had lower altitide, the level of technicality has increased. 20% increase in training and hiking overall.</div>
+                    <div class="stats stats-header">Steps Taken: <span class="stats timer stats-number" data-to="4369176" data-speed="1500"></span> </div>
+                    <div class="subtitle"> Just about 5% increase from the total of 2016</div>
+                  </div>
+                  <div class="column-right">
+                    <canvas id="climbChart" width="200px" height="100px"></canvas>
+                    <div class="subtitle">The data is collected and tracked with <a href="http://suunto.com/">Suunto</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+              <p class="credit"> Quantified Self Report <a href="https://www.annanicanorova.com">of Anna Nicanorova</a></p>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script  src="js/index.js"></script>
+    <script  src="js/chart.js"></script>
+    <script  src="js/work.js"></script>
+    <script  src="js/climb.js"></script>
+
+
+  </body>
+  </html>
